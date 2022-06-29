@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dallen.doctorsactivity">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoctorsActivity">
+        <activity
+            android:name=".Eye4"
+            android:exported="false" />
+        <activity
+            android:name=".Eye3"
+            android:exported="false" />
+        <activity
+            android:name=".Eye2"
+            android:exported="false" />
+        <activity
+            android:name=".ayeee1"
+            android:exported="false" />
+        <activity
+            android:name=".EyeDiseasesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitcalendar"
+            android:exported="false" />
+        <activity
+            android:name=".calenderActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".splashActivity" -->
+        <!-- android:theme="@style/SplashTheme" -->
+        <!-- android:exported="true"/> -->
+        <activity
+            android:name=".Dentist3"
+            android:exported="false" />
+        <activity
+            android:name=".Dentist2"
+            android:exported="false" />
+        <activity
+            android:name=".BookAppoint"
+            android:exported="false" />
+        <activity
+            android:name=".Dentists"
+            android:exported="false" />
+        <activity
+            android:name=".choosespecialist"
+            android:exported="false" />
+        <activity
+            android:name=".creartAccount"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

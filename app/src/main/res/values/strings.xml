@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DoctorsActivity</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="login">LOGIN</string>
+    <string name="createaccount">CreateAccount</string>
+    <string name="login_to_accout">login to accout</string>
+    <string name="loginn">loginn</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="you_are_booking_appointment_with">you are booking appointment with</string>
+</resources>

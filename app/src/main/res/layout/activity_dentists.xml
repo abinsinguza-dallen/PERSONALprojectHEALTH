@@ -2,183 +2,21 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Dentists">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="Dentists"
+    android:background="@android:color/white">
 
-    <TextView
-        android:id="@+id/tvdentists"
-        android:layout_width="52dp"
-        android:layout_height="18dp"
-        android:textSize="20sp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
-        android:text="Destists"
-        android:textStyle="bold"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvContacts"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="118dp"
-        android:layout_height="168dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="48dp"
-        app:layout_constraintEnd_toStartOf="@+id/tvdentistname"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dentist1" />
-
-    <TextView
-        android:id="@+id/tvdentistname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
-        android:layout_marginEnd="135dp"
-        android:text="Dr. Njeli James"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvdentists" />
-
-    <TextView
-        android:id="@+id/tvdentistwork"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="124dp"
-        android:text="Qualified Dentist"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvdentistname" />
-
-    <TextView
-        android:id="@+id/tvhospital"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="35dp"
-        android:text="Mulago International hospital"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvdentistwork" />
-
-    <Button
-        android:id="@+id/btnappointment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="39dp"
-        android:backgroundTint="#8BC34A"
-        android:text="Book Appointment"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvhospital" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="110dp"
-        android:layout_height="283dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="156dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dentist2" />
-
-    <TextView
-        android:id="@+id/tvdentist2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="111dp"
-        android:text="Dr . Stephen  Joy"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnappointment" />
-
-    <TextView
-        android:id="@+id/tvname2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="110dp"
-        android:text="Qualified Dentist"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvdentist2" />
-
-    <TextView
-        android:id="@+id/tvhospitral"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="51dp"
-        android:text="Nsambya Hospital Uganda"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvname2" />
-
-    <Button
-        android:id="@+id/btnappoint2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="39dp"
-        android:backgroundTint="#8BC34A"
-        android:text="Book Appointment"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvhospitral" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="125dp"
-        android:layout_height="149dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="271dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/dentst3" />
-
-    <TextView
-        android:id="@+id/tvdentist4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="47dp"
-        android:layout_marginEnd="111dp"
-        android:text="Dr .Jane Wamani"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnappoint2" />
-
-    <TextView
-        android:id="@+id/tvoccupation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="107dp"
-        android:text="Qualified Dentist "
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvdentist4" />
-
-    <TextView
-        android:id="@+id/tvhospital3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="52dp"
-        android:text="Nyakibale hospital uganda"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvoccupation" />
-
-    <Button
-        android:id="@+id/btnappoint4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="39dp"
-        android:backgroundTint="#8BC34A"
-        android:text="Book Appointment"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvhospital3" />
-
-    <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnappoint2"
-        app:srcCompat="@drawable/dall_aa" />
-
+        app:layout_constraintVertical_bias="0.0"
+        tools:listitem="@layout/item_list" />
 </androidx.constraintlayout.widget.ConstraintLayout>

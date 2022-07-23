@@ -32,7 +32,7 @@ class creartAccount : AppCompatActivity() {
         etpassword=findViewById(R.id.etpassword)
         btnspecialists=findViewById(R.id.btnspecialists)
         btncreate.setOnClickListener { validate() }
-        btnspecialists.setOnClickListener {
+        btncreate.setOnClickListener {
             var intent = Intent(this, choosespecialist::class.java)
             startActivity(intent)
         }

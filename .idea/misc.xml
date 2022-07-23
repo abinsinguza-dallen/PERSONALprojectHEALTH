@@ -9,8 +9,9 @@
         <entry key="app/src/main/res/layout/activity_calender.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_choosespecialist.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_creart_account.xml" value="0.19375" />
-        <entry key="app/src/main/res/layout/activity_dentist2.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_dentist2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_dentist3.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_dentist4.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_dentists.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_eye2.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_eye3.xml" value="0.19375" />
@@ -19,6 +20,7 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main_activitcalendar.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/item_list.xml" value="0.1" />
       </map>
     </option>
   </component>
